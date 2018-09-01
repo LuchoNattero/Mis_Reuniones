@@ -32,8 +32,8 @@ public class Fragmento_Inicio extends Fragment {
         listView = miInflater.findViewById(R.id.frg_list_inicio);
 
 
-       lista_reunion = new LinkedList<>(Arrays.asList(Reuniones.ITEMS));
-       adaptador = new AdaptadorProximaReunion(getContext(),lista_reunion);
+        lista_reunion = new LinkedList<>(Arrays.asList(Reuniones.ITEMS));
+        adaptador = new AdaptadorProximaReunion(getContext(),lista_reunion);
 
         listView.setAdapter(adaptador);
         registerForContextMenu(listView);

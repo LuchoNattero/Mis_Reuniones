@@ -54,6 +54,7 @@ public class Inicio extends AppCompatActivity  {
 //        setSupportActionBar(myToolbar);
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navigation.setSelectedItemId(R.id.navigation_home);
         Fragmento_Inicio fm = new Fragmento_Inicio();
         getSupportFragmentManager().beginTransaction().replace(R.id.fm_principal,fm).commit();
     }

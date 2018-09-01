@@ -31,7 +31,7 @@ public class AdaptadorProximaReunion extends BaseAdapter {
         TextView lugar;
         TextView motivo;
 
-        public ViewHolder(View view){
+        private ViewHolder(View view){
 
             titulo = view.findViewById(R.id.pr_tv_titulo);
             hora = view.findViewById(R.id.pr_tv_hora);

@@ -14,7 +14,6 @@
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-
         />
     <FrameLayout
         android:layout_marginTop="?attr/actionBarSize"
@@ -33,6 +32,6 @@
         android:layout_marginStart="0dp"
         app:menu="@menu/item_navegation"
         android:elevation="5dp"
-        ></android.support.design.widget.BottomNavigationView>
+        />
 
 </RelativeLayout>
