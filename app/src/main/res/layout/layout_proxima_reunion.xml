@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/colorFondo">
+
+    <TextView
+        android:text="Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pr_tv_titulo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:text="Hota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pr_tv_hora"
+        android:layout_below="@+id/pr_tv_titulo"
+        />
+    <TextView
+        android:text="Lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pr_tv_lugar"
+        android:layout_below="@+id/pr_tv_hora"
+        />
+    <TextView
+        android:text="Motivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pr_tv_motivo"
+        android:layout_below="@+id/pr_tv_lugar"
+        />
+</RelativeLayout>

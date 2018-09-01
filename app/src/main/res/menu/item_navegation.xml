@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_grupos"
+        android:icon="@drawable/navegation_grupos"
+        android:title="Mis Grupos" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/navegation_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/navegation_perfil"
+        android:title="Mi Perfil" />
+
+</menu>
